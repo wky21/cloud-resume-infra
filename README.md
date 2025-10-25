@@ -1,2 +1,2 @@
 # cloud-resume-infra
-terraform infra
+resume site built with terraform
