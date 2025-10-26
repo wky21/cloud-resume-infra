@@ -38,7 +38,7 @@ jobs:
 
       # Upload plan & .terraform folder for apply job
       - name: Upload plan artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: tfplan
           path: |
@@ -69,7 +69,7 @@ jobs:
 
       # Download plan & .terraform folder
       - name: Download plan artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: tfplan
           path: ./terraform
